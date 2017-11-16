@@ -13,6 +13,8 @@
 		BD0715D11FBAFD2E006D29DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0715D01FBAFD2E006D29DD /* Assets.xcassets */; };
 		BD0715D41FBAFD2E006D29DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0715D21FBAFD2E006D29DD /* LaunchScreen.storyboard */; };
 		BD0715D71FBAFD2E006D29DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0715D61FBAFD2E006D29DD /* main.m */; };
+		BD0715E61FBB02E5006D29DD /* DYYImageStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0715E51FBB02E5006D29DD /* DYYImageStickerView.m */; };
+		BD0715E91FBB02F3006D29DD /* DYYTextStickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0715E81FBB02F3006D29DD /* DYYTextStickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		BD0715D31FBAFD2E006D29DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD0715D51FBAFD2E006D29DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD0715D61FBAFD2E006D29DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD0715E41FBB02E5006D29DD /* DYYImageStickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYYImageStickerView.h; sourceTree = "<group>"; };
+		BD0715E51FBB02E5006D29DD /* DYYImageStickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYYImageStickerView.m; sourceTree = "<group>"; };
+		BD0715E71FBB02F3006D29DD /* DYYTextStickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYYTextStickerView.h; sourceTree = "<group>"; };
+		BD0715E81FBB02F3006D29DD /* DYYTextStickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYYTextStickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 				BD0715C81FBAFD2E006D29DD /* AppDelegate.m */,
 				BD0715CA1FBAFD2E006D29DD /* ViewController.h */,
 				BD0715CB1FBAFD2E006D29DD /* ViewController.m */,
+				BD0715DD1FBB019A006D29DD /* DYYSticker */,
 				BD0715CD1FBAFD2E006D29DD /* Main.storyboard */,
 				BD0715D01FBAFD2E006D29DD /* Assets.xcassets */,
 				BD0715D21FBAFD2E006D29DD /* LaunchScreen.storyboard */,
@@ -69,6 +76,17 @@
 				BD0715D61FBAFD2E006D29DD /* main.m */,
 			);
 			path = DYYStickerDemo;
+			sourceTree = "<group>";
+		};
+		BD0715DD1FBB019A006D29DD /* DYYSticker */ = {
+			isa = PBXGroup;
+			children = (
+				BD0715E41FBB02E5006D29DD /* DYYImageStickerView.h */,
+				BD0715E51FBB02E5006D29DD /* DYYImageStickerView.m */,
+				BD0715E71FBB02F3006D29DD /* DYYTextStickerView.h */,
+				BD0715E81FBB02F3006D29DD /* DYYTextStickerView.m */,
+			);
+			path = DYYSticker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0715CC1FBAFD2E006D29DD /* ViewController.m in Sources */,
+				BD0715E61FBB02E5006D29DD /* DYYImageStickerView.m in Sources */,
 				BD0715D71FBAFD2E006D29DD /* main.m in Sources */,
 				BD0715C91FBAFD2E006D29DD /* AppDelegate.m in Sources */,
+				BD0715E91FBB02F3006D29DD /* DYYTextStickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
